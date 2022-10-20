@@ -3,18 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <a1>Aqui vai o título</a1>
+    <h1>Aqui vai o título</h1>
 </head>
+<style type="text/css">
+    .divs{
+        width: 200px;
+        height: 300px;
+    }
+
+    .divEsquerda{
+        background-color: blueviolet;
+        color:white;
+        float:left;
+        height: 100px;
+    }
+
+    .divAlignCenter{
+        margin: 0 auto;
+        width: 50%;
+        height: 100px;
+        background-color: lightblue;
+    }
+
+    .divRodape{
+        height: 100px;
+        width: 600px;
+        background-color: lightgreen;
+    }
+
+</style>
 <body>
-    <nav>
+
+    <nav class="divEsquerda">
         <p>Aqui fica a <br> navegação lateral</p>
     </nav>
 
-    <article>
+    <article class="divAlignCenter">Posicionamento central>
         <p>Aqui fica a parte principal</p>
     </article>
 
-    <footer>
+    <footer class="divRodape">
         <p>Aqui fica o rodapé</p>
     </footer>
 
