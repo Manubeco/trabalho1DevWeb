@@ -40,9 +40,12 @@ header div {
   font-size: 1.6rem;
   width: 29.32rem;
   height: 4.6rem;
+  background-color: #EAEAEA;
+  color: #9B9B9B;
 }
 
 .btn-outline-primary {
+  color: black;
   font-size: 1.6rem;
   width: 8rem;
   height: 3.9rem;
