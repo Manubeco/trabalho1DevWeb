@@ -21,6 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 2.1rem 6.5rem 2.1rem;
+  filter: drop-shadow(0 0 0.75rem crimson);
 }
 
 .logo {
