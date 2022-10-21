@@ -3,10 +3,10 @@
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
-
-/*# sourceMappingURL=bootstrap.min.css.map */
-
-:root {
+ 
+ /*# sourceMappingURL=bootstrap.min.css.map */
+ 
+ :root {
   font-size: 62.5%;
 }
 
@@ -18,21 +18,34 @@ body {
 .cabecalho {
   align-items: center;
   background-color: #f9f9f9;
+  flex-direction: row;
   display: flex;
   justify-content: space-between;
   padding: 2.1rem 6.5rem 2.1rem;
-  filter: drop-shadow(0 0 0.75rem crimson);
+  box-shadow: 0 3px 5.5rem rgb(0 0 0 / 0.9)
 }
 
 .logo {
+  justify-content: flex-start;
   width: 7.7rem;
   height: 7.7rem;
 }
 
+.NomeLoja{
+  font-family: fantasy;
+  font-size: 3.5rem;
+  margin-left: 2.5rem;
+  justify-content: flex-start;
+  align-self: center;
+  color: black;
+  
+}
+
 header div {
   display: flex;
-  align-items: center;
-  /* flex-direction: row; */
+  margin-left:auto;
+  justify-content:space-around;
+  align-items: center
 }
 
 .search {
@@ -46,8 +59,48 @@ header div {
 }
 
 .btn-outline-primary {
+  justify-content: right;
   color: black;
   font-size: 1.6rem;
   width: 8rem;
   height: 3.9rem;
 }
+
+.divBanner{
+  background-image: url(../../assets/img/Banner1.png);
+  width: 100%;
+  height: 22rem;
+  background-color: darkblue;
+  background-size: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #EAEAEA;
+  font-size: 5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.slogan{
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+  align-items: flex-end;
+  font-size: 2rem;
+}
+
+.titulo{
+  margin-left: 2rem;
+  margin-bottom: -1rem;
+  align-items: flex-end;
+  font-size: 5rem;
+}
+
+.btn{
+  max-width: 15rem;
+  margin-left: 2rem;
+  margin-top: -2rem;
+  margin-bottom: 3rem;
+}
+
+  
