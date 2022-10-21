@@ -5,6 +5,23 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 
 /*# sourceMappingURL=bootstrap.min.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: black;
+  font-size: 2.6 rem;
+}
+
+.cabecalho {
+}
 
 /* .divs {
     width: 200px;
