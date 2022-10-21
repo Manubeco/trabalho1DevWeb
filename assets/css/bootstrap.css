@@ -1,18 +1,19 @@
-@charset "UTF-8"; /*!
+@charset "UTF-8";  /*!
+
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 
 /*# sourceMappingURL=bootstrap.min.css.map */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 :root {
   font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+  background: #f9f9f9;
 }
 
 .cabecalho {
@@ -20,33 +21,27 @@
   background-color: #f9f9f9;
   display: flex;
   justify-content: space-between;
+  padding: 2.2rem 6.5rem 2.1rem;
 }
 
-/* .divs {
-    width: 200px;
-    height: 300px;
-  }
-  .divTitulo {
-    background-color: lightgray;
-  }
+.logo{
+  width: 7.7rem;
+  height: 7.7rem;
+}
 
-  .divEsquerda {
-    background-color: blueviolet;
-    color: white;
-    float: left;
-    width: 150px;
-    height: 100px;
-  }
+header div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
 
-  .divAlignCenter {
-    margin: 0 auto;
-    width: 50%;
-    height: 100px;
-    background-color: lightblue;
-  }
+.search{
+  border-radius: 3.6rem;
+  margin-right: 1.5rem;
+  width: 29.32rem;
+  height: 4.6rem;
+}
 
-  .divRodape {
-    height: 100px;
-    width: 600px;
-    background-color: lightgreen;
-  } */
+
+
+
