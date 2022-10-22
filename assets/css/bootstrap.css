@@ -177,4 +177,56 @@ h4{
   height: 8.8rem;
   align-self: end;
   background-color: #053F8C;
- }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.About_Contact{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 6.4rem;
+}
+
+.About{
+  width: 28.4rem;
+  height: 6.4rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  margin-left: 14%;
+  background-color: #00275B;
+}
+
+.Sobre{
+  color: #f9f9f9;
+  margin-bottom: 0.1rem;
+}
+
+.infos{
+  font-size: 1rem;
+  color: #f9f9f9;
+}
+
+.Contatos{
+  width: 28.4rem;
+  height: 6.4rem;
+}
+
+.ContatoTitulo{
+  color: #f9f9f9;
+  margin-bottom: 0.1rem;
+}
+
+.ContatosInfos{
+  font-size: 1rem;
+  color: #f9f9f9;
+}
+
+.CertificadoSeguro{
+  padding-right: 5%;
+  justify-content: flex-end;
+
+}
