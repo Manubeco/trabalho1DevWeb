@@ -56,8 +56,10 @@ header div {
 .iconeSearch {
   width: 2.4rem;
   height: 2.4rem;
+  position: absolute;
   display: flex;
   flex-direction: row;
+  margin-left: 7rem;
 }
 
 .search {
