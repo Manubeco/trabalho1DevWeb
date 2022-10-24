@@ -16,26 +16,6 @@ button {
   background: #f9f9f9;
 }
 
-/*MAIN*/
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 9.7rem 34.6rem 8rem;
-  line-height: 5rem;
-}
-
-.informacao__titulo {
-  white-space: nowrap;
-  font-size: 4rem;
-  font-weight: 700;
-}
-
-.informacao__subtitulo {
-  white-space: nowrap;
-  font-size: 3rem;
-}
-
 /*HEADER*/
 .cabecalho {
   background-color: #f9f9f9;
@@ -109,6 +89,48 @@ button {
   font-size: 1.6rem;
   width: 8rem;
   height: 3.9rem;
+}
+
+/*MAIN*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9.7rem 34.6rem 8rem;
+  line-height: 5rem;
+}
+
+.informacao__titulo {
+  white-space: nowrap;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.informacao__subtitulo {
+  white-space: nowrap;
+  font-size: 3rem;
+}
+
+.btn.btn-primary {
+  width: 36.9rem;
+  height: 5.6rem;
+
+  background-color: #053f8c;
+  color: white;
+  font-size: 3rem;
+  border: none;
+  border-radius: 1.2rem;
+}
+
+.line {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 116.7rem;
 }
 
 /*FOOTER*/
