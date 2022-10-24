@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body,
+input,
+button {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  background: #f9f9f9;
+}
+
+/*MAIN*/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9.7rem 34.6rem 8rem;
+  line-height: 5rem;
+}
+
+.informacao__titulo {
+  white-space: nowrap;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.informacao__subtitulo {
+  white-space: nowrap;
+  font-size: 3rem;
+}
+
+/*HEADER*/
+.cabecalho {
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.1rem 6.5rem 2.1rem;
+  box-shadow: 0 3px 5.5rem rgb(0 0 0 / 0.2);
+}
+
+.cabecalho__logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__img {
+  width: 7.7rem;
+  height: 7.7rem;
+}
+
+.logo__name {
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-left: 2.5rem;
+  text-decoration: none;
+  color: #053f8c;
+}
+
+.cabecalho__icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons__search {
+  margin: 0rem 2.4rem 0rem 0rem;
+}
+
+.search {
+  border-radius: 3.6rem;
+  padding-left: 1.6rem;
+  position: relative;
+
+  width: 29.32rem;
+  height: 4.6rem;
+  background-color: #eaeaea;
+
+  font-size: 1.6rem;
+  color: #9b9b9b;
+}
+
+.searchImg {
+  position: absolute;
+  right: 25.2rem;
+  bottom: 54.5rem;
+
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.iconeMeuCarrinho {
+  margin-right: 2.4rem;
+
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.btn-outline-primary {
+  align-items: center;
+  justify-content: right;
+  color: black;
+  font-size: 1.6rem;
+  width: 8rem;
+  height: 3.9rem;
+}
+
+/*FOOTER*/
+.Rodape {
+  height: 8.8rem;
+  align-self: end;
+  background-color: #053f8c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.About_Contact {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 6.4rem;
+}
+
+.About {
+  width: 28.4rem;
+  height: 6.4rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  margin-left: 14%;
+  background-color: #00275b;
+}
+
+.Sobre {
+  color: #f9f9f9;
+  margin-bottom: 0.1rem;
+}
+
+.infos {
+  font-size: 1rem;
+  color: #f9f9f9;
+}
+
+.Contatos {
+  width: 28.4rem;
+  height: 6.4rem;
+}
+
+.ContatoTitulo {
+  color: #f9f9f9;
+  margin-bottom: 0.1rem;
+}
+
+.ContatosInfos {
+  font-size: 1rem;
+  color: #f9f9f9;
+}
+
+.CertificadoSeguro {
+  padding-right: 5%;
+  justify-content: flex-end;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-left: 20rem;
+  margin-bottom: 35rem;
+  width: 30rem;
+  height: 30rem;
+}
