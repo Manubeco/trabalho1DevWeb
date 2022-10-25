@@ -80,17 +80,43 @@
       <div class="line"></div>
 
       <section class="produto container">
-        <img src="/assets/img/produtos3/Rectangle 2-3.png" alt="" />
-        <div>
-          <div>
-            <p>Taça POP - Rosa Fosco</p>
-            <!--Acrescentar um dropdown-->
-            <p>R$ 25,89</p>
+        <img
+          class="produto__image"
+          src="/assets/img/produtos3/Rectangle 2-3.png"
+          alt=""
+        />
+        <div class="produto__descricao">
+          <div class="produto__descricao-1">
+            <p class="produto__descricao-titulo">Taça POP - Rosa Fosco</p>
+            <p class="produto__descricao-valor">R$ 25,89</p>
           </div>
-          <div class="line"></div>
-          <p></p>
+          <div class="descricao line"></div>
+          <p class="produto__descricao-CEP">Faça seu pedido. Entrega para</p>
+          <!--Input de CEP-->
         </div>
       </section>
+
+      <div class="line"></div>
+
+      <section class="finalizacao container">
+        <div class="subpedido finalizacao__texto">
+          <p>Subpedido</p>
+          <p class="finalizacao__texto-preco">R$ 25,89</p>
+        </div>
+
+        <div class="envioGratis finalizacao__texto">
+          <p>Envio</p>
+          <p>GRÁTIS</p>
+        </div>
+
+        <div class="finalizacao__line line"></div>
+
+        <div class="total finalizacao__texto">
+          <p>TOTAL</p>
+          <p class="finalizacao__texto-preco">R$ 25,89</p>
+        </div>
+      </section>
+      <button type="button" class="btnFinal btn btn-primary">Pagar</button>
     </main>
 
     <!--FOOTER-->

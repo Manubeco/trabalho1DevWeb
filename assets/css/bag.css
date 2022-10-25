@@ -102,6 +102,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 9.7rem 34.6rem 8rem;
   line-height: 5rem;
 }
@@ -131,6 +132,74 @@ main {
 .line {
   border: 1px solid rgba(0, 0, 0, 0.5);
   width: 116.7rem;
+}
+
+.produto {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5rem;
+}
+
+.produto__image {
+  width: 18.6rem;
+  height: 18.6rem;
+}
+
+.produto__descricao-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10.65rem;
+}
+
+.produto__descricao-titulo {
+  white-space: nowrap;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.produto__descricao-valor {
+  font-size: 3.5rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.descricao.line {
+  width: 81.1rem;
+}
+
+.produto__descricao-CEP {
+  font-size: 3rem;
+}
+
+.finalizacao {
+  padding-left: 81.3rem;
+}
+
+.finalizacao__line {
+  width: 71.1rem;
+}
+
+.finalizacao__texto {
+  display: flex;
+  flex-direction: row;
+  gap: 53.8rem;
+  white-space: nowrap;
+}
+
+.envioGratis {
+  gap: 58.3rem;
+}
+
+.total {
+  font-weight: 700;
+  gap: 56.3rem;
+}
+
+.btnFinal {
+  align-items: flex-end;
+  margin-left: 81rem;
+  margin-bottom: 8rem;
 }
 
 /*FOOTER*/
