@@ -14,40 +14,58 @@
   />
 
   <!--Fontes-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+          href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+          rel="stylesheet"
+  />
 
   <!--CSS-->
-  <link rel="stylesheet" href="../assets/css/bootstrap.css" />
+  <link rel="stylesheet" href="/assets/css/index.css" />
 
   <title>Geek Venture</title>
 </head>
 <body>
-
 <!--HEADER-->
 <header class="cabecalho">
-  <img
-          src="../assets/img/Logo.png"
-          alt="logo de console de videogame"
-          class="logo"
-  />
-
-  <div class="NomeLoja">
-    <a href="../index.html">Geek Venture</a>
+  <div class="cabecalho__logo">
+    <img
+            src="/assets/img/Logo.png"
+            alt="logo de console de videogame"
+            class="logo__img"
+    />
+    <a class="logo__name" href="../index.html">Geek Venture</a>
   </div>
 
-  <div>
-    <input
-            type="text"
-            class="form-control search"
-            placeholder="Pesquisar produto..."
-            aria-label="Recipient's username"
-            aria-describedby="button-addon2"
-    />
-    <img class="iconeSearch" src="../assets/img/iconeSearch.svg" alt="Ícone de pesquisa">
+  <div class="cabecalho__icons">
+    <div class="icons__search">
+      <input
+              type="text"
+              class="form-control search"
+              placeholder="Pesquisar produto..."
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+      />
 
-    <a href="login.html" type="button" class="btn btn-outline-primary">Login</a>
+      <img
+              class="searchImg"
+              src="/assets/img/iconeSearch.svg"
+              alt="Ícone de pesquisa"
+      />
+    </div>
+
+    <a href="bag.html">
+        <img
+          src="/assets/img/meuCarrinho.svg"
+          alt="Meu carrinho"
+          class="iconeMeuCarrinho"
+        />
+    </a>
+
+    <a href="login.html" type="button" class="btn btn-outline-primary"
+    >Login</a
+    >
   </div>
 </header>
 

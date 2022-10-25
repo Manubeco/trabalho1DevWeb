@@ -7,38 +7,39 @@
 
     <!--Bootstrap-->
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-    crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
     />
 
     <!--Fontes-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!--CSS-->
-    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
 
     <title>Geek Venture</title>
   </head>
   <body>
-
-  <!--HEADER-->
+    <!--HEADER-->
     <header class="cabecalho">
-      <img
-        src="assets/img/Logo.png"
-        alt="logo de console de videogame"
-        class="logo"
-      />
-      
-      <div class="NomeLoja">
-        <a href="index.html">Geek Venture</a>
+      <div class="cabecalho__logo">
+        <img
+          src="assets/img/Logo.png"
+          alt="logo de console de videogame"
+          class="logo__img"
+        />
+        <a class="logo__name" href="index.html">Geek Venture</a>
       </div>
-      
-      <div>
-        <div>
+
+      <div class="cabecalho__icons">
+        <div class="icons__search">
           <input
             type="text"
             class="form-control search"
@@ -46,125 +47,189 @@
             aria-label="Recipient's username"
             aria-describedby="button-addon2"
           />
-
+            
+            
+          <img
+            class="searchImg"
+            src="./assets/img/iconeSearch.svg"
+            alt="Ícone de pesquisa"
+          />
         </div>
-          <img class="iconeSearch" src="./assets/img/iconeSearch.svg" alt="Ícone de pesquisa">
-        <a href="pages/login.html" type="button" class="btn btn-outline-primary">Login</a>
+
+        <a href="./pages/bag.html">
+          <img
+                  src="/assets/img/meuCarrinho.svg"
+                  alt="Meu carrinho"
+                  class="iconeMeuCarrinho"
+          />
+        </a>
+
+        <a href="pages/login.html" type="button" class="btn btn-outline-primary"
+          >Login</a
+        >
       </div>
     </header>
 
-  <!--BANNER-->
+    <!--BANNER-->
     <div class="divBanner">
       <div>
         <h1 class="titulo">Black Friday</h1>
         <p class="slogan">Venha para o negro dos descontos.</p>
-        <button type="button" 
-          class="btn btn-light">Confira >
-        </button>
+        <button type="button" class="btn btn-light">Confira ></button>
       </div>
     </div>
 
-<!--CARROSSEL1-->
-  <section class="CarrosselProdutos">
-    <h1 class="NomeCarrossel">Star Wars</h1>
-  <section class="CardsProdutos">
-    <div class="card">
-      <img class="ImgCa" src="assets/img/SoldadinStrmTroop.png" alt="Imagem Stormtroopers">
-        <div class="Info">
-          <p class="tituloCard">Soldadinho Stormtrooper</p>
-          <h3 class="preco"> R$ 60,00</h3>
-          <a class="linkProduto" href="">Adicione ao Carrinho</a>
+    <!--CARROSSEL1-->
+    <section class="CarrosselProdutos">
+      <h1 class="NomeCarrossel">Star Wars</h1>
+      <section class="CardsProdutos">
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/SoldadinStrmTroop.png"
+            alt="Imagem Stormtroopers"
+          />
+          <div class="Info">
+            <p class="tituloCard">Soldadinho Stormtrooper</p>
+            <h3 class="preco">R$ 60,00</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
         </div>
-    </div>
-    <div class="card">
-      <img class="ImgCa" src="assets/img/Stormtrooper.png" alt="Imagem Stormtrooper">
-      <div class="Info">
-        <p class="tituloCard">Figure Stormtrooper</p>
-        <h3 class="preco"> R$ 180,00</h3>
-        <a class="linkProduto" href="">Adicione ao Carrinho</a>
-      </div>
-    </div>
-    <div class="card">
-      <img class="ImgCa" src="assets/img/Chewbaca.png" alt="Imagem Chewbacca">
-      <div class="Info">
-        <p class="tituloCard">Mascará Chewbacca</p>
-        <h3 class="preco"> R$ 80,00</h3>
-        <a class="linkProduto" href="">Adicione ao Carrinho</a>
-      </div>
-    </div>
-    <div class="card">
-      <img class="ImgCa" src="assets/img/TrooperMask.png" alt="Imagem Mascará Stormtrooper">
-      <div class="Info">
-        <p class="tituloCard">Mascará Stormtrooper</p>
-        <h3 class="preco"> R$ 80,00</h3>
-        <a class="linkProduto" href="">Adicione ao Carrinho</a>
-      </div>
-    </div>
-    <div class="card">
-      <img class="ImgCa" src="assets/img/Mandalorian.png" alt="Imagem Mascará Mandalorian">
-      <div class="Info">
-        <p class="tituloCard">Mascará Mandalorian</p>
-        <h3 class="preco"> R$ 80,00</h3>
-        <a class="linkProduto" href="">Adicione ao Carrinho</a>
-      </div>
-    </div>
-    <div class="card">
-      <img class="ImgCa" src="assets/img/TrooperLego.png" alt="Imagem Stormtrooper Lego">
-      <div class="Info">
-        <p class="tituloCard">Lego Stormtrooper</p>
-        <h3 class="preco"> R$ 40,00</h3>
-        <a class="linkProduto" href="">Adicione ao Carrinho</a>
-      </div>
-    </div>
-    <div class="card">
-      <img class="ImgCa" src="assets/img/TrooperFantasy.png" alt="Imagem Fantasia Stormtroopers">
-      <div class="Info">
-        <p class="tituloCard">Fantasia Stormtrooper</p>
-        <h3 class="preco"> R$ 290,00</h3>
-        <a class="linkProduto" href="">Adicione ao Carrinho</a>
-      </div>
-    </div>
-  </section>
-  </section>
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/Stormtrooper.png"
+            alt="Imagem Stormtrooper"
+          />
+          <div class="Info">
+            <p class="tituloCard">Figure Stormtrooper</p>
+            <h3 class="preco">R$ 180,00</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/Chewbaca.png"
+            alt="Imagem Chewbacca"
+          />
+          <div class="Info">
+            <p class="tituloCard">Mascará Chewbacca</p>
+            <h3 class="preco">R$ 80,00</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/TrooperMask.png"
+            alt="Imagem Mascará Stormtrooper"
+          />
+          <div class="Info">
+            <p class="tituloCard">Mascará Stormtrooper</p>
+            <h3 class="preco">R$ 80,00</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/Mandalorian.png"
+            alt="Imagem Mascará Mandalorian"
+          />
+          <div class="Info">
+            <p class="tituloCard">Mascará Mandalorian</p>
+            <h3 class="preco">R$ 80,00</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/TrooperLego.png"
+            alt="Imagem Stormtrooper Lego"
+          />
+          <div class="Info">
+            <p class="tituloCard">Lego Stormtrooper</p>
+            <h3 class="preco">R$ 40,00</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/TrooperFantasy.png"
+            alt="Imagem Fantasia Stormtroopers"
+          />
+          <div class="Info">
+            <p class="tituloCard">Fantasia Stormtrooper</p>
+            <h3 class="preco">R$ 290,00</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
+        </div>
+      </section>
+    </section>
 
-<!--CARROSSEL2-->
-  <section class="CarrosselProdutos">
+    <!--CARROSSEL2-->
+    <section class="CarrosselProdutos">
       <h1 class="NomeCarrossel">Consoles</h1>
       <section class="CardsProdutos">
         <div class="card">
-          <img class="ImgCa" src="assets/img/produtos2/Rectangle%202-1.png" alt="Imagem Stormtroopers">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos2/Rectangle%202-1.png"
+            alt="Imagem Stormtroopers"
+          />
           <div class="Info">
             <p class="tituloCard">Xbox Series S</p>
-            <h3 class="preco"> R$ 2119,00</h3>
+            <h3 class="preco">R$ 2119,00</h3>
             <a class="linkProduto" href="">Adicione ao Carrinho</a>
           </div>
         </div>
         <div class="card">
-          <img class="ImgCa" src="assets/img/produtos2/Rectangle%202-2.png" alt="Imagem Stormtroopers">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos2/Rectangle%202-2.png"
+            alt="Imagem Stormtroopers"
+          />
           <div class="Info">
             <p class="tituloCard">Controle Nintendo Joy con</p>
-            <h3 class="preco"> R$ 357,00</h3>
+            <h3 class="preco">R$ 357,00</h3>
             <a class="linkProduto" href="">Adicione ao Carrinho</a>
           </div>
         </div>
         <div class="card">
-          <img class="ImgCa" src="assets/img/produtos2/Rectangle%202-3.png" alt="Imagem Stormtroopers">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos2/Rectangle%202-3.png"
+            alt="Imagem Stormtroopers"
+          />
           <div class="Info">
             <p class="tituloCard">Playstation Classic 16 GB</p>
-            <h3 class="preco"> R$ 780,00</h3>
+            <h3 class="preco">R$ 780,00</h3>
             <a class="linkProduto" href="">Adicione ao Carrinho</a>
           </div>
         </div>
         <div class="card">
-          <img class="ImgCa" src="assets/img/produtos2/Rectangle%202-4.png" alt="Imagem Stormtroopers">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos2/Rectangle%202-4.png"
+            alt="Imagem Stormtroopers"
+          />
           <div class="Info">
-            <p class="tituloCard">Console Dualshock 4 - Playstation 4 - Vermelho</p>
-            <h3 class="preco"> R$ 284,90</h3>
+            <p class="tituloCard">
+              Console Dualshock 4 - Playstation 4 - Vermelho
+            </p>
+            <h3 class="preco">R$ 284,90</h3>
             <a class="linkProduto" href="">Adicione ao Carrinho</a>
           </div>
         </div>
         <div class="card">
-          <img class="ImgCa" src="assets/img/produtos2/Rectangle%202-5.png" alt="Imagem Stormtroopers">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos2/Rectangle%202-5.png"
+            alt="Imagem Stormtroopers"
+          />
           <div class="Info">
             <p class="tituloCard">Controle para Playstation 2 Dualshock</p>
             <h3 class="preco">R$ 27,50</h3>
@@ -172,107 +237,147 @@
           </div>
         </div>
         <div class="card">
-          <img class="ImgCa" src="assets/img/produtos2/Rectangle%202-6.png" alt="Imagem Stormtroopers">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos2/Rectangle%202-6.png"
+            alt="Imagem Stormtroopers"
+          />
           <div class="Info">
-            <p class="tituloCard">Controle sem fio - PS3  </p>
-            <h3 class="preco"> R$ 104,90</h3>
+            <p class="tituloCard">Controle sem fio - PS3</p>
+            <h3 class="preco">R$ 104,90</h3>
             <a class="linkProduto" href="">Adicione ao Carrinho</a>
           </div>
         </div>
         <div class="card">
-          <img class="ImgCa" src="assets/img/produtos2/Rectangle%202.png" alt="Imagem Stormtroopers">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos2/Rectangle%202.png"
+            alt="Imagem Stormtroopers"
+          />
           <div class="Info">
             <p class="tituloCard">Controle sem fio Xbox Robot White</p>
-            <h3 class="preco"> R$ 439,45</h3>
+            <h3 class="preco">R$ 439,45</h3>
             <a class="linkProduto" href="">Adicione ao Carrinho</a>
           </div>
         </div>
       </section>
     </section>
 
-<!--CARROSSEL3-->
-  <section class="CarrosselProdutos">
-    <h1 class="NomeCarrossel">Diversos</h1>
-    <section class="CardsProdutos">
-      <div class="card">
-        <img class="ImgCa" src="assets/img/produtos3/Rectangle%202.png" alt="Boneco Homem de Ferro">
-        <div class="Info">
-          <p class="tituloCard">Boneco Marvel Homem de Ferro Dourado</p>
-          <h3 class="preco"> R$ 79,90</h3>
-          <a class="linkProduto" href="">Adicione ao Carrinho</a>
+    <!--CARROSSEL3-->
+    <section class="CarrosselProdutos">
+      <h1 class="NomeCarrossel">Diversos</h1>
+      <section class="CardsProdutos">
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos3/Rectangle%202.png"
+            alt="Boneco Homem de Ferro"
+          />
+          <div class="Info">
+            <p class="tituloCard">Boneco Marvel Homem de Ferro Dourado</p>
+            <h3 class="preco">R$ 79,90</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="ImgCa" src="assets/img/produtos3/Rectangle%202-1.png" alt="Máquina Antiga de Escrever">
-        <div class="Info">
-          <p class="tituloCard">Antiga Máquina de Escrever</p>
-          <h3 class="preco"> R$ 450,00</h3>
-          <a class="linkProduto" href="">Adicione ao Carrinho</a>
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos3/Rectangle%202-1.png"
+            alt="Máquina Antiga de Escrever"
+          />
+          <div class="Info">
+            <p class="tituloCard">Antiga Máquina de Escrever</p>
+            <h3 class="preco">R$ 450,00</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="ImgCa" src="assets/img/produtos3/Rectangle%202-2.png" alt="Imagem Stormtroopers">
-        <div class="Info">
-          <p class="tituloCard">Boneco Funko Stars Wars</p>
-          <h3 class="preco"> R$ 319,00</h3>
-          <a class="linkProduto" href="">Adicione ao Carrinho</a>
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos3/Rectangle%202-2.png"
+            alt="Imagem Stormtroopers"
+          />
+          <div class="Info">
+            <p class="tituloCard">Boneco Funko Stars Wars</p>
+            <h3 class="preco">R$ 319,00</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="ImgCa" src="assets/img/produtos3/Rectangle%202-3.png" alt="Imagem Stormtroopers">
-        <div class="Info">
-          <p class="tituloCard">Taça POP Rosa Fosco - 550 ml</p>
-          <h3 class="preco"> R$ 25,89</h3>
-          <a class="linkProduto" href="">Adicione ao Carrinho</a>
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos3/Rectangle%202-3.png"
+            alt="Imagem Stormtroopers"
+          />
+          <div class="Info">
+            <p class="tituloCard">Taça POP Rosa Fosco - 550 ml</p>
+            <h3 class="preco">R$ 25,89</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="ImgCa" src="assets/img/produtos3/Rectangle%202-4.png" alt="Imagem Stormtroopers">
-        <div class="Info">
-          <p class="tituloCard">Telefone de Disco Estilo Retrô Vintage</p>
-          <h3 class="preco"> R$ 247,99</h3>
-          <a class="linkProduto" href="">Adicione ao Carrinho</a>
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos3/Rectangle%202-4.png"
+            alt="Imagem Stormtroopers"
+          />
+          <div class="Info">
+            <p class="tituloCard">Telefone de Disco Estilo Retrô Vintage</p>
+            <h3 class="preco">R$ 247,99</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="ImgCa" src="assets/img/produtos3/Rectangle%202-5.png" alt="Imagem Stormtroopers">
-        <div class="Info">
-          <p class="tituloCard">Câmer Instatânea Polaroid</p>
-          <h3 class="preco"> R$ 1.580,00</h3>
-          <a class="linkProduto" href="">Adicione ao Carrinho</a>
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos3/Rectangle%202-5.png"
+            alt="Imagem Stormtroopers"
+          />
+          <div class="Info">
+            <p class="tituloCard">Câmer Instatânea Polaroid</p>
+            <h3 class="preco">R$ 1.580,00</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="ImgCa" src="assets/img/produtos3/Rectangle%202-6.png" alt="Imagem Stormtroopers">
-        <div class="Info">
-          <p class="tituloCard">Boneco tamanho real C-3PO - Stars Wars</p>
-          <h3 class="preco"> R$ 794,50</h3>
-          <a class="linkProduto" href="">Adicione ao Carrinho</a>
+        <div class="card">
+          <img
+            class="ImgCa"
+            src="assets/img/produtos3/Rectangle%202-6.png"
+            alt="Imagem Stormtroopers"
+          />
+          <div class="Info">
+            <p class="tituloCard">Boneco tamanho real C-3PO - Stars Wars</p>
+            <h3 class="preco">R$ 794,50</h3>
+            <a class="linkProduto" href="">Adicione ao Carrinho</a>
+          </div>
         </div>
-      </div>
+      </section>
     </section>
-  </section>
 
-<!--FOOTER-->
-  <footer class="Rodape">
-    <div class="About_Contact">
-    <div class="About">
-      <h3 class="Sobre">Sobre nós</h3>
-      <p class="infos"> Nós somos a Geek Venture /<br>
-        uma loja especializada em artigos geeks </p>
-    </div>
+    <!--FOOTER-->
+    <footer class="Rodape">
+      <div class="About_Contact">
+        <div class="About">
+          <h3 class="Sobre">Sobre nós</h3>
+          <p class="infos">
+            Nós somos a Geek Venture /<br />
+            uma loja especializada em artigos geeks
+          </p>
+        </div>
 
-    <div class="Contatos">
-      <h3 class="ContatoTitulo"> Nossos contatos</h3>
-      <p class="ContatosInfos"> Instagram: @geekventury <br>
-        Telefone: +55 4002-8922 </p>
-    </div>
-    </div>
+        <div class="Contatos">
+          <h3 class="ContatoTitulo">Nossos contatos</h3>
+          <p class="ContatosInfos">
+            Instagram: @geekventury <br />
+            Telefone: +55 4002-8922
+          </p>
+        </div>
+      </div>
 
-    <div class="CertificadoSeguro">
-      <img src="assets/img/SiteSeguro.png" alt="Selo Site Seguro">
-    </div>
-  </footer>
+      <div class="CertificadoSeguro">
+        <img src="assets/img/SiteSeguro.png" alt="Selo Site Seguro" />
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
@@ -280,3 +385,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
+</html>
