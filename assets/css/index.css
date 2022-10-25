@@ -45,35 +45,32 @@ button {
   color: #053f8c;
 }
 
+
 .cabecalho__icons {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  align-content: center;
 }
 
-.icons__search {
-  margin: 0rem 2.4rem 0rem 0rem;
+.searchImg {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  margin-top: -3.5rem;
+  margin-left: 25rem;
+
 }
 
 .search {
   border-radius: 3.6rem;
+  margin-right: 1.65rem;
   padding-left: 1.6rem;
   position: relative;
-
+  font-size: 1.6rem;
   width: 29.32rem;
   height: 4.6rem;
-  background-color: #eaeaea;
-
-  font-size: 1.6rem;
-  color: #9b9b9b;
-}
-
-.searchImg {
-  position: absolute;
-  right: 25.2rem;
-  bottom: 54.5rem;
-
-  width: 2.4rem;
-  height: 2.4rem;
+  background-color: #EAEAEA;
+  color: #9B9B9B;
 }
 
 .iconeMeuCarrinho {
