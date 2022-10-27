@@ -308,6 +308,7 @@ main {
 .line {
   border: 1px solid rgba(0, 0, 0, 0.5);
   width: 116.7rem;
+  margin-bottom: 3rem;
 }
 
 .produto {
@@ -320,6 +321,10 @@ main {
 .produto__image {
   width: 18.6rem;
   height: 18.6rem;
+}
+
+.produto__descricao{
+  margin-bottom: 0.5rem;
 }
 
 .produto__descricao-1 {
@@ -376,4 +381,20 @@ main {
   align-items: flex-end;
   margin-left: 81rem;
   margin-bottom: 8rem;
+}
+
+.col-sm-7{
+  width: 20rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.col-sm-3{
+  width: 10rem;
+  margin-top: 1rem;
+  margin-left: -9rem;
+}
+
+.form-control{
+  font-size: 1.4rem;
 }
